@@ -13,7 +13,7 @@ client.post('/user/repos', {}, function (err, status, body, headers) {
       require('simple-git')()
      .init()
      .add('./*')
-     .commit("first commit!")
+     .commit(process.argv[5])
      .addRemote('origin', 'git@github.com:' + process.argv[2] + '/' + process.argv[4] + '.git')
      .push('origin', 'master');
 
