@@ -1,2 +1,2 @@
-# gitcli
-Create/push a repo from the command line
+#Usage
+ > node gitcli.js USERNAME PASSWORD REPONAME COMMITMESSAGE
