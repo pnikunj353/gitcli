@@ -12,6 +12,9 @@
     "command",
     "repo"
   ],
+  "files": [
+    "gitcli.js"
+  ],
   "dependencies": {
     "octonode": "0.7.1",
     "simple-git": "1.8.0"
