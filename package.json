@@ -12,6 +12,10 @@
     "command",
     "repo"
   ],
+  "dependencies": {
+    "octonode": "^1.0.0",
+    "simple-git": "^1.0.0",
+  },
   "author": "Akash Nimare <svnitakash@gmail.com> (akashnimare.in)",
   "license": "ISC",
   "repository": {
