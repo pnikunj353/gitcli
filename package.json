@@ -16,6 +16,9 @@
   "files": [
     "index.js"
   ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
   "dependencies": {
     "octonode": "0.7.1",
     "simple-git": "1.8.0"
