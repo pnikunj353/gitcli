@@ -12,6 +12,7 @@
     "command",
     "repo"
   ],
+   "preferGlobal": true,
   "files": [
     "gitcli.js"
   ],
