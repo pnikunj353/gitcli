@@ -24,5 +24,5 @@ client.post('/user/repos', {}, function (err, status, body, headers) {
 
 };
 
-module.exports = new gitcli();
+module.exports = gitcli;
 
