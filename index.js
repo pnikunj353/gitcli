@@ -1,8 +1,7 @@
-'use strict';
 var github = require('octonode');
 var simpleGit = require('simple-git');
 
-module.exports= function () {
+var gitcli = function () {
  var user_login = {
   username: process.argv[2],
   password: process.argv[3]
@@ -25,4 +24,5 @@ client.post('/user/repos', {}, function (err, status, body, headers) {
 
 };
 
+module.exports = gitcli;
 
