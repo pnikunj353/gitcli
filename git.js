@@ -1,6 +1,8 @@
 var github = require('octonode');
 var simpleGit = require('simple-git');
-var user_login = {
+
+var plugin = function () {
+ var user_login = {
   username: process.argv[2],
   password: process.argv[3]
 };
@@ -17,5 +19,9 @@ client.post('/user/repos', {}, function (err, status, body, headers) {
      .addRemote('origin', 'git@github.com:' + process.argv[2] + '/' + process.argv[4] + '.git')
      .push('origin', 'master');
 
-  } );
+  });
 });
+
+};
+
+module.exports = plugin;
