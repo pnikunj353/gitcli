@@ -1,3 +1,4 @@
+'use strict';
 var github = require('octonode');
 var simpleGit = require('simple-git');
 
