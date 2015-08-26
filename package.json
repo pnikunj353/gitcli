@@ -12,7 +12,6 @@
     "command",
     "repo"
   ],
-   "preferGlobal": true,
   "files": [
     "index.js"
   ],
