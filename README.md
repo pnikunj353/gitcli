@@ -1,2 +1,2 @@
-#Usage
+#Usage[WIP]
  > node index.js USERNAME PASSWORD REPONAME COMMITMESSAGE
